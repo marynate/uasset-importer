@@ -1,5 +1,7 @@
 ## Introduction
 
+[intro to uasset importer](_media/intro_to_uasset_importer.mp4 ':include :type=video controls width=640')
+
 **UAsset Importer** is an Unreal Engine editor plugin that enables direct import of `.uasset` files into your project with automatic dependency analysis and gathering.
 
 Unlike Unreal’s built-in migration workflow, UAsset Importer allows you to reuse assets without opening the source project or manually tracking dependencies. During import, the plugin analyzes asset references and ensures that all required dependencies are collected and imported together, providing a reliable and streamlined workflow for cross-project asset reuse.
