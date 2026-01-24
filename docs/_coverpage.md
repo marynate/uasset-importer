@@ -1,6 +1,6 @@
 ![logo](_media/Icon128.png)
 
-# UAsset Importer <small>1.0</small>
+# UAsset Importer <small>1.0.3</small>
 
 > Dependency-aware UAsset file importer for Unreal Engine
 
