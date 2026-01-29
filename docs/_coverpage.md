@@ -1,6 +1,6 @@
 ![logo](_media/Icon128.png)
 
-# UAsset Importer <small>1.0.3</small>
+# UAsset Importer <small>1.0.5</small>
 
 > Dependency-aware UAsset file importer for Unreal Engine
 
@@ -9,9 +9,9 @@
 - Preview and inspect `.uasset` files before import
 - Without opening source projects
 
-[FAB (WIP)](https://www.fab.com/)  
-[Get Started](introduction.md)
+[FAB](https://www.fab.com/listings/89bc666d-51b6-42ad-9b39-1963df2b6688)  
+[Get Started](/introduction)
 
 <!-- background color -->
 
-![color](#dddddd)
+![color](#1a1a1a)

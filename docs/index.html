@@ -6,7 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
+<style>
+:root {
+  --background-color: #1a1a1a;
+  --background: #1a1a1a;
+}
+body, .cover, .cover-main, .content, .sidebar, .sidebar-nav, .app-nav {
+  background-color: #1a1a1a !important;
+}
+section.cover {
+  background-color: #1a1a1a !important;
+}
+</style>
 </head>
 <body>
   <div id="app"></div>
@@ -15,10 +27,14 @@
       name: 'UAsset Importer',
       repo: '',
       coverpage: true,
+      homepage: 'introduction.md',
       loadSidebar: true,
       subMaxLevel: 1,
       auto2top: true,
       logo: '/_media/Icon128.png',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
   <!-- Docsify v4 -->

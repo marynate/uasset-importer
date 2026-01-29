@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.0.5
+* Allow importing assets with missing editor-only engine package references
+---
+## 1.0.4
+* Added a show/hide overlay button and asset thumbnail overlays for Engine Version, Validation Status, and Content Type.
+* Assets are now automatically validated, with validation status icons displayed on asset thumbnails.
+---
 ## 1.0.3
 * Added plugin version display to the Import Options dialog
 * Enabled drag-and-drop import into folders in both Path View and Asset View (previously only supported dropping onto empty space in Asset View)
