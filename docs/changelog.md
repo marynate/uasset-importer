@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.6
+* Assets are now properly marked as Invalid when the asset class or dependent plugin/module is not supported by the current project or engine version
+* Properly import assets with soft references missing but ignorable legacy asset types (mainly UE4 rig assets)
+* Import results now display the total number of imported assets (previously showed total dependencies)
+* Fixed unnecessary asset duplication during import caused by class name changes in newer engine versions
+---
 ## 1.0.5
 * Allow importing assets with missing editor-only engine package references
 ---
